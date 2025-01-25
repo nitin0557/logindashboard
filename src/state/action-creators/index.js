@@ -2,7 +2,7 @@ import { FETCHCARD, LOGIN_FAIL, LOGIN_SUCCESS } from "../../state/Constants";
 import axios from "axios";
 
 export const fetchCard = () => async (dispatch) => {
-  const response = await axios.get("http://www.localhost:4000/card");
+  const response = await axios.get("http://www.localhost:5001/card");
   console.log("response", response);
 
   dispatch({
@@ -16,7 +16,7 @@ export const handleApi = (data) => {
     let result = {};
 
     try {
-      result = await axios.post("http://www.localhost:4000/login", {
+      result = await axios.post("http://www.localhost:5001/login", {
         data,
       });
 

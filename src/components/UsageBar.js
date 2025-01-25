@@ -75,7 +75,7 @@ const UsageBar = ({ value, width }) => {
       }
       result.push(finalele);
     }
-
+   console.log(result)
     return result;
   }
 

@@ -32,5 +32,6 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
+    port: 9000, // Add the port number here
   },
 };

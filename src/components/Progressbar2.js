@@ -146,7 +146,7 @@ const Progressbar2 = () => {
             <div
               style={{
                 display: "flex",
-                columnGap: "59px",
+                columnGap: "64px",
                 borderBottom: "2px dotted #E8EAED",
                 color: "#96a4b5",
               }}
@@ -195,7 +195,7 @@ const Progressbar2 = () => {
               style={{ display: "flex", columnGap: "80px", color: "#96a4b5" }}
             >
               <div>{titles.tendency}</div>
-              <div style={{ display: "flex", columnGap: "12px" }}>
+              <div style={{ display: "flex", columnGap: "15px" }}>
                 <div>
                   <Icons
                     name={CardPart1.tendency_icon}
