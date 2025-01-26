@@ -12,7 +12,10 @@ const Login = () => {
   const dispatch = useDispatch();
   const [Loading, setLoading] = useState(false);
 
+  console.log("111111")
+
   const submitHandler = () => {
+  
     setLoading(true);
     dispatch(handleApi({ email, password })).then((res) => {
       if (res.data.name) {
